@@ -16,7 +16,7 @@
     nav a{margin-left:18px;color:var(--muted);text-decoration:none;font-size:14px}
     nav a:hover{color:var(--accent-2)}
 
-    .grid{display:grid;grid-template-columns:2fr 1fr;gap:22px;margin-top:22px}
+    .grid{display:grid;grid-template-columns:15fr 1fr;gap:22px;margin-top:22px}
     .card{background:var(--card);border-radius:var(--radius);padding:20px;box-shadow:0 6px 18px rgba(16,24,40,0.06);border:1px solid rgba(15,23,42,0.04)}
 
     /* Hero */
@@ -26,6 +26,7 @@
     .meta{background:#fbfdff;border-radius:10px;padding:10px;border:1px solid rgba(15,23,42,0.03)}
     .meta .k{font-size:11px;color:var(--muted)}
     .meta .v{font-weight:600;margin-top:6px}
+	.center{text-align: center;}
 
     .cta{margin-top:18px;display:flex;gap:10px}
     .btn{padding:10px 14px;border-radius:10px;border:none;cursor:pointer}
@@ -61,6 +62,33 @@
     .contact-grid{display:grid;grid-template-columns:2fr 1fr;gap:14px}
 
     footer{margin-top:26px;text-align:center;font-size:12px;color:var(--muted)}
+
+	.fa:hover {
+            opacity: 0.9;
+        }
+
+    .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+    .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+
+    .fa-reddit {
+            background: #ff5700;
+            color: white;
+        }
+
+    .fa {
+            padding: 20px;
+            font-size: 40px;
+            width: 60px;
+            text-decoration: none;
+            margin: 5px 80px;
+        }
 
     /* Responsive */
     @media (max-width:880px){
