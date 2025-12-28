@@ -100,18 +100,16 @@
       nav{display:none}
       .meta-grid{grid-template-columns:repeat(1,1fr)}
       .education-grid { grid-template-columns: 1fr; }
-    }
-
-    /* Keep right hero as sidebar and sticky; let first hero reorganize on small screens */
-.grid { grid-template-columns: 1fr 220px; }
-
-/* Target the second hero inside .grid (sidebar) */
+      .grid { grid-template-columns: 1fr 220px; }
+      /* Target the second hero inside .grid (sidebar) */
 .grid > .hero:nth-of-type(2) {
   position: sticky;
   top: 28px;
   align-self: start;
   height: fit-content;
 }
+    }
+
 
 /* First hero: allow content to reorganize on narrow screens,
    while keeping the sidebar in place. */
@@ -124,23 +122,3 @@
   }
   .container { overflow-x: auto; }
 }
-
-/* Override broader rule that collapses .grid to one column */
-@media (max-width:660px){
-  .grid{ /* keep a right sidebar instead of full collapse */ grid-template-columns: 1fr 220px; }
-}
-
-/* Localized styles moved from inline HTML */
-.hero-text { color:#334155; margin-top:8px; line-height:1.5; }
-.icon-lg { font-size:1.5rem; color:#000; }
-.job-title { font-weight:600; margin-top:12px; }
-.job-meta { font-size:12px; color:var(--muted); margin-top:6px; }
-.job-list { color:#334155; margin-top:8px; margin-left:18px; }
-.edu-degree { font-weight:600; }
-.edu-meta { font-size:12px; color:var(--muted); margin-top:6px; }
-.edu-list { color:#334155; margin-top:8px; margin-left:18px; }
-.skills-grid { margin-top:12px; }
-.skills-aside { padding-left:14px; }
-.muted-p { color:#334155; margin-top:8px; }
-.muted-meta { margin-top:10px; font-size:12px; color:var(--muted); }
-.tools-list { margin-top:8px; color:#0f172a; }
