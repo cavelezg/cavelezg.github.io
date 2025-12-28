@@ -94,7 +94,7 @@
 
 
     /* Responsive */
-    @media (max-width:3000px){
+    @media (max-width:660px){
       .projects-grid{grid-template-columns:1fr}
       .skills-grid{grid-template-columns:1fr}
       nav{display:none}
@@ -115,7 +115,7 @@
 
 /* First hero: allow content to reorganize on narrow screens,
    while keeping the sidebar in place. */
-@media (max-width:3000px) {
+@media (max-width:660px) {
   .grid { grid-template-columns: 1fr 220px; }
   .grid > .hero:first-of-type {
     display: flex;
@@ -126,7 +126,7 @@
 }
 
 /* Override broader rule that collapses .grid to one column */
-@media (max-width:3000px){
+@media (max-width:660px){
   .grid{ /* keep a right sidebar instead of full collapse */ grid-template-columns: 1fr 220px; }
 }
 
