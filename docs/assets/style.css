@@ -40,7 +40,7 @@
 
     /* Sections */
     section{margin-top:26px}
-    h3{margin:0 0 12px 0;font-size:16px}
+    h3{margin:0 0 12px 0;font-size:18px;font-weight: 700;}
     .experience .item{margin-bottom:12px}
     .item h4{margin:0;font-size:15px}
     .item .meta{font-size:12px;color:var(--muted);margin-top:4px}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Carlos Andrés Vélez González — Portfolio</title>
+  <title><h3>Carlos Andrés Vélez González — Portfolio</h3></title>
   <meta name="description" content="Scientific, elegant portfolio for Carlos Andrés Vélez González — Machine Learning, Cloud, Computational Physics." />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -30,8 +30,8 @@
 
     <main class="grid">
       <div class="hero card">
-        <h2>Hello — I'm Carlos</h2>
-        <p>Multidisciplinary professional with a Bachelor’s degree in Engineering Physics and a Master’s degree in Physics.
+        <h3>Hello — I'm Carlos</h3>
+        <p style="color:#334155;margin-top:8px">Multidisciplinary professional with a Bachelor’s degree in Engineering Physics and a Master’s degree in Physics.
              Experienced in industry as an Outage Management System Analyst and Data Scientist, with research expertise in computational physics and metal–insulator transition materials. Demonstrated ability to lead complex engineering and research projects, automate workflows,
              and develop data-driven solutions for both industry and academic environments.</p>
     
@@ -69,9 +69,10 @@
 
     <section id="experience" class="experience card">
       <h3>Experience</h3>
-      <div class="item">
-        <h4>Outage Management Systems Analyst — LUMA Energy</h4>
-        <div class="meta">San Juan, PR • July 2024 – Present — Applied ML · Cloud · OMS</div>
+      
+        <div style="font-weight:600">Outage Management Systems Analyst — LUMA Energy </div>
+          <div style="font-size:12px;color:var(--muted);margin-top:6px">San Juan, PR • July 2024 – Present — Applied ML · Cloud · OMS</div>
+          <p style="color:#334155;margin-top:8px">
         <ul>
           <li>Automated model deployment through Azure Functions, integrating the prediction pipeline with operational
             data from the OMS system (HxGN InService) and weather forecast APIs.</li>
@@ -80,40 +81,48 @@
                 consolidation time by 45 minutes daily.</li>
             <li>Provided continuous support and improvement for the InService OMS system, GIS, and SCADA tools.</li>
         </ul>
-      </div>
+        </p>
+    
 
-      <div class="item">
-        <h4>Data Scientist — Sermintec</h4>
-        <div class="meta">Medellín, COL • Jan 2022 – May 2024 — ML · Pipelines</div>
+      
+        <div style="font-weight:600">Data Scientist — Sermintec</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:6px">Medellín, COL • Jan 2022 – May 2024 — ML · Pipelines</div>
+        <p style="color:#334155;margin-top:8px">
         <ul>
           <li>Built machine learning models to optimize mining operations and analyze machinery performance.</li>
           <li>Automated model training and data management through pipelines.</li>
         </ul>
-      </div>
+        </p>
+      
 
-      <div class="item">
-        <h4>Laboratory Instructor — University of Puerto Rico</h4>
-        <div class="meta">Mayagüez, PR • Aug 2021 – Nov 2023 — Teaching · Physics Labs</div>
+      
+        <div style="font-weight:600">Laboratory Instructor — University of Puerto Rico</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:6px">Mayagüez, PR • Aug 2021 – Nov 2023 — Teaching · Physics Labs</div>
+        <p style="color:#334155;margin-top:8px">
         <ul>
             <li>Designed and evaluated experimental physics practices in mechanics and electromagnetism.</li> 
         </ul>
-    </div>
+        </p>
+      
 
-      <div class="item">
-        <h4>Intern — Cementos Argos</h4>
-        <div class="meta">Medellín, Col • Aug 2020 – Fev 2021 — ML</div>
+      
+        <div style="font-weight:600">Intern — Cementos Argos</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:6px">Medellín, Col • Aug 2020 – Fev 2021 — ML</div>
+        <p style="color:#334155;margin-top:8px">
         <ul>
             <li>Predictive models to optimize extraction costs using multivariable regression techniques.</li> 
         </ul>
-      </div>
+        </p>
+      
 
-      <div class="item">
-        <h4>Academic Monitor — National University of Colombia</h4>
-        <div class="meta">Medellín, Col • Feb 2018 – Aug 2020 — ML</div>
+      
+        <div style="font-weight:600">Academic Monitor — National University of Colombia</div>
+        <div style="font-size:12px;color:var(--muted);margin-top:6px">Medellín, Col • Feb 2018 – Aug 2020 — ML</div>
+        <p style="color:#334155;margin-top:8px">
         <ul>
             <li>Electricity and magnetism laboratories, promoting experimental understanding of theoretical concepts.</li> 
         </ul>
-      </div>
+        </p>
     </section>
 
     <section id="education" class="card">
@@ -174,7 +183,7 @@
 
 
     <section id="projects" class="projects-grid">
-      <a href="#">
+      <a href="outage_prediction.html">
       <div class="card">
         <h4>Electrical Outage Prediction (Azure ML)</h4>
         <p style="color:#334155;margin-top:8px">End-to-end pipeline for predicting outage probability by district using meteorological and operational data. Serverless updates, web visualizations, and automated summary generation.</p>
@@ -190,7 +199,7 @@
       </div>
       </a>
 
-      <a href="#">
+      <a href="energy_consumption.html">
       <div class="card">
         <h4>Energy Consumption Prediction</h4>
         <p style="color:#334155;margin-top:8px">Supervised regression models that forecast energy consumption from meteorological data and usage history.</p>
@@ -198,7 +207,7 @@
       </div>
       </a>
 
-      <a href="#">
+      <a href="mlops.html">
       <div class="card">
         <h4>MLOps & Deployment Automation</h4>
         <p style="color:#334155;margin-top:8px">Automated training, deployment and monitoring with Azure ML, Docker and CI pipelines.</p>
